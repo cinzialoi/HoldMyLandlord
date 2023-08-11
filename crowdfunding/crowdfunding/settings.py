@@ -44,6 +44,7 @@ CSRF_TRUSTED_ORIGINS = ['https://*.fly.dev']
 INSTALLED_APPS = [
     'projects.apps.ProjectsConfig',
     'users.apps.UsersConfig',
+    'tips.apps.TipsConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
